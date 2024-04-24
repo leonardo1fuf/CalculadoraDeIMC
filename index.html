@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Calculadora de IMC | @devleonardo.ofc</title>
+
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    </head>
+
+    <body>
+        
+        <main id="container">
+
+            <section id="img">
+
+                <img src="assets/img/unnamed.png" alt="Logo">
+
+            </section>
+
+            <section id="calculator">
+
+                <form id="form">
+
+                    <h1 id="title">Calculadora - IMC</h1>
+
+                    <div class="input-box">
+
+                        <label for="weight">Peso em Kg</label>
+
+                        <div class="input-field">
+
+                            <input type="number" id="weight" required>
+
+                            <span>Kg</span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="input-box">
+
+                        <label for="height">Altura em metros</label>
+
+                        <div class="input-field">
+
+                            <input type="number" step="0.01" id="height" required>
+
+                            <span>m</span>
+
+                        </div>
+
+                    </div>
+
+                    <button id="calculate">Calcular</button>
+
+                </form>
+
+                <div id="infos" class="hidden">
+
+                    <div id="result">
+
+                        <div id="bmi">
+
+                            <span id="value"></span>
+
+                            <span>Seu IMC</span>
+
+                        </div>
+
+                        <div id="description">
+
+                            <span></span>
+
+                        </div>
+
+                    </div>
+
+                    <div id="more_info">
+
+                        <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm#:~:text=O%20IMC%20(%C3%8Dndice%20de%20Massa,o%20peso%20ideal%20ou%20n%C3%A3o." target="_blank">Mais informações sobre o IMC <i class="bi bi-link-45deg"></i></a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <script src="assets/js/scrpt.js">
+            
+        </script>
+
+    </body>
+
+</html>
